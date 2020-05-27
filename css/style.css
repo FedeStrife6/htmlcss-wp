@@ -1,0 +1,182 @@
+/* REGOLE GENERALI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/default-pattern.png);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+
+}
+h3 {
+  color: white;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.clearfix {
+  content:"";
+  display: table;
+  clear: both;
+}
+
+/* FINE REGOLE GENERALI */
+
+header .header_top {
+  background-image: url(../img/default-header.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  height: 230px;
+  border: 10px solid white;
+  margin-top: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header .brand {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+  border: 4px solid white;
+  padding: 10px;
+}
+
+header .header_top .brand p {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+header .menu-navigation {
+  background-color: #504741;
+  padding: 14px;
+}
+
+header .menu-navigation ul {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  font-size: 0px;
+}
+
+header .menu-navigation ul li {
+  display: inline-block;
+  font-size: 13px;
+}
+
+.menu-navigation a {
+  text-decoration: none;
+  color: grey;
+  letter-spacing: 0.6px;
+  padding: 13px;
+  border-right: 1px solid grey;
+}
+
+header .menu-navigation ul li a:hover{
+  background-color: rgba(55, 50, 45, 0.5);
+  transition: 1s;
+  color: white;
+}
+
+/* Inizio Main */
+main .col {
+  float: left;
+  margin-top: 10px;
+}
+
+/* Colonna Centrale */
+main .col-center {
+  background-color: white;
+  width: 50%;
+  margin: 0 1%;
+}
+img {
+  height: 300px;
+  width: 600px;
+}
+
+main h3 {
+  color: #504741;
+  margin: 20px;
+}
+
+main p {
+  color: #504741;
+
+
+}
+/* Fine Colonna Centrale */
+
+/* Colonna Destra */
+main .col-right {
+  background-color: white;
+  width: 24%;
+  height: 500px;
+}
+
+main .col-right {
+  margin: 10 0 20px;
+}
+
+main .widget-src {
+  width: 24%;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+main .form-control {
+  height: 40px;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 20px;
+  padding: 8px;
+}
+
+main .widget-src .btn {
+
+  color: lightgrey;
+  text-align: center;
+  border-radius:  3px;
+  border: 1px solid black;
+  background-color: #504741;
+  padding: 6px;
+
+}
+
+
+
+
+main .widget-tag {
+  padding: 20px;
+}
+
+ /* Fine Colonna Destra*/
+
+ /* Colonna Sinistra */
+main .col-left {
+  background-color: white;
+  width: 24%;
+ }
+main .col-left {
+   margin-top: 10px;
+ }
+main .col-left .sidebar {
+  ;
+}
+main .col-left .sidebar ul li a {
+  color: #99cc33;
+}
+main .sidebar a {
+text-decoration: none
+}
+
+  /* Fine Colonna Sinistra */
+/* Fine Main */
